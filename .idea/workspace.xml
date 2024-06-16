@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eab212e6-24e7-4b70-8c1d-a994f3ae65d1" name="Changes" comment="NO-JIRA: Consumer Listener">
+      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/java/com/nick/mq/consumer/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/java/com/nick/mq/producer/TopicProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/READ_ME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Applications\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gm1pUCTm7GaPnv9IyX6XMmPFLh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ConsumerListenerMainApplication.executor": "Run",
+    "Application.ConsumerMainApplication.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ProducerMainApplication.executor": "Run",
+    "Application.TopicConsumer.executor": "Run",
+    "Application.TopicProducer.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "zulu-1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/active_MQ_maven_project/MQ_PUB_SUB/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\active_MQ_maven_project\MQ_PUB_SUB\src\main\resources" />
+      <recent name="D:\Project\active_MQ_maven_project\MQ_Consumer_Listener\src\main\resources" />
+      <recent name="D:\Project\active_MQ_maven_project\MQ_Producer\src\main\resources" />
+      <recent name="D:\Project\active_MQ_maven_project\MQ_Consumer\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\active_MQ_maven_project\MQ_Producer\src\main\java\com\nick\mq" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TopicConsumer">
+    <configuration name="ConsumerListenerMainApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nick.mq.ConsumerListenerMainApplication" />
+      <module name="MQ_Consumer_Listener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nick.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nick.mq.ConsumerMainApplication" />
+      <module name="MQ_Consumer" />
+      <option name="PROGRAM_PARAMETERS" value="-Dlog4j.debug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nick.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerMainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nick.mq.ProducerMainApplication" />
+      <module name="MQ_Producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nick.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nick.mq.consumer.TopicConsumer" />
+      <module name="MQ_PUB_SUB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nick.mq.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nick.mq.producer.TopicProducer" />
+      <module name="MQ_PUB_SUB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nick.mq.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TopicConsumer" />
+      <item itemvalue="Application.TopicProducer" />
+      <item itemvalue="Application.ConsumerListenerMainApplication" />
+      <item itemvalue="Application.ConsumerMainApplication" />
+      <item itemvalue="Application.ProducerMainApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TopicProducer" />
+        <item itemvalue="Application.TopicConsumer" />
+        <item itemvalue="Application.ProducerMainApplication" />
+        <item itemvalue="Application.ConsumerListenerMainApplication" />
+        <item itemvalue="Application.ConsumerMainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eab212e6-24e7-4b70-8c1d-a994f3ae65d1" name="Changes" comment="" />
+      <created>1716288122860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716288122860</updated>
+      <workItem from="1716288123930" duration="3425000" />
+      <workItem from="1716291563750" duration="164000" />
+      <workItem from="1716291737241" duration="1298000" />
+      <workItem from="1717073606471" duration="2951000" />
+      <workItem from="1717216390974" duration="3928000" />
+    </task>
+    <task id="LOCAL-00001" summary="NO-JIRA: active mq producer and consumer">
+      <option name="closed" value="true" />
+      <created>1716293029968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716293029968</updated>
+    </task>
+    <task id="LOCAL-00002" summary="NO-JIRA: Consumer Listener">
+      <option name="closed" value="true" />
+      <created>1717077833960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717077833960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="NO-JIRA: active mq producer and consumer" />
+    <MESSAGE value="NO-JIRA: Consumer Listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="NO-JIRA: Consumer Listener" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nick/mq/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
