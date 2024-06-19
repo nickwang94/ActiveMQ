@@ -9,7 +9,7 @@ public class ProducerMainApplication {
 
     public static void main(String[] args) {
         TextProducer textProducer = new TextProducer();
-        ObjectProducer objectProducer = new ObjectProducer();
-        objectProducer.sendObjectMessageInLoop();
+//        ObjectProducer objectProducer = new ObjectProducer();
+        textProducer.sendTextMessage("Test Msg");
     }
 }

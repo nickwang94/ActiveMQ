@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab212e6-24e7-4b70-8c1d-a994f3ae65d1" name="Changes" comment="NO-JIRA: Consumer Listener">
-      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/java/com/nick/mq/consumer/TopicConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/java/com/nick/mq/producer/TopicProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQ_PUB_SUB/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/READ_ME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQ_Producer/src/main/java/com/nick/mq/ProducerMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MQ_Producer/src/main/java/com/nick/mq/ProducerMainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READ_ME.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +28,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\Applications\apache-maven-3.9.6" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -67,7 +56,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "zulu-1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project/active_MQ_maven_project/MQ_PUB_SUB/src/main/resources",
+    "last_opened_file_path": "/Users/nickwang/Documents/project/ActiveMQ",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +80,7 @@
       <recent name="D:\Project\active_MQ_maven_project\MQ_Producer\src\main\java\com\nick\mq" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopicConsumer">
+  <component name="RunManager" selected="Application.ConsumerMainApplication">
     <configuration name="ConsumerListenerMainApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nick.mq.ConsumerListenerMainApplication" />
       <module name="MQ_Consumer_Listener" />
@@ -167,20 +156,13 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerMainApplication" />
+        <item itemvalue="Application.ProducerMainApplication" />
         <item itemvalue="Application.TopicProducer" />
         <item itemvalue="Application.TopicConsumer" />
-        <item itemvalue="Application.ProducerMainApplication" />
         <item itemvalue="Application.ConsumerListenerMainApplication" />
-        <item itemvalue="Application.ConsumerMainApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -195,6 +177,7 @@
       <workItem from="1716291737241" duration="1298000" />
       <workItem from="1717073606471" duration="2951000" />
       <workItem from="1717216390974" duration="3928000" />
+      <workItem from="1718802453401" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="NO-JIRA: active mq producer and consumer">
       <option name="closed" value="true" />
